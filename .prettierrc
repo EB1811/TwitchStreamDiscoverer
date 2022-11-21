@@ -7,5 +7,5 @@
   "bracketSpacing": false,
   "trailingComma": "none",
   "arrowParens": "avoid",
-  "plugins": ["./gamble-gwent/node_modules/prettier-plugin-tailwindcss"]
+  "plugins": ["./twitch-streamer-discoverer/node_modules/prettier-plugin-tailwindcss"]
 }

@@ -3,12 +3,12 @@
   import svelteLogo from './assets/svelte.svg'
   import Counter from './lib/Counter.svelte'
 
-  const a = () => {console.log('a')
+  const a = () => {
+    console.log('a')
   }
 </script>
 
-<main>
-</main>
+<main />
 
 <style>
 </style>

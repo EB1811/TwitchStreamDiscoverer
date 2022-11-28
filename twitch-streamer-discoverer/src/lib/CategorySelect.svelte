@@ -136,7 +136,7 @@
             ))}
         >
           <div
-            class="inline-flex items-center rounded-full bg-violet-600 px-3 py-1 text-xs font-semibold uppercase text-gray-50 transition-all duration-100 hover:bg-violet-700"
+            class="inline-flex items-center rounded-full bg-violet-600 px-3 py-1 text-xs font-semibold text-gray-50 transition-all duration-100 hover:bg-violet-700"
           >
             <span>{chosenCategory.name}</span>
             <span class="ml-1">

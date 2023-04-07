@@ -27,7 +27,7 @@
                 chosenCategory => chosenCategory.id === category.id
               )
           )
-          .slice(0, 5)
+          .slice(0, 10)
 
         waitingForApi = false
       }, 300)
@@ -79,7 +79,7 @@
         id="search"
         type="text"
         placeholder="Search for a category"
-        class="block w-full rounded-md border border-neutral-500 bg-neutral-900 py-2 pl-10 pr-3 leading-5 text-white placeholder-gray-500 transition duration-300 ease-in-out focus:border-transparent focus:outline-none focus:ring-2 focus:ring-violet-500 sm:text-sm"
+        class="block w-full rounded-md border border-neutral-700 bg-black py-2 pl-10 pr-3 leading-5 text-white placeholder-gray-500 transition duration-300 ease-in-out focus:border-transparent focus:outline-none focus:ring-2 focus:ring-violet-500 sm:text-sm"
         bind:value={searchTerm}
         on:input={setSuggestionsFromApi}
       />
